@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kb-001",
+    "title": "First-line empiric antibiotic therapy for community-acquired pneumonia under institutional stewardship protocol",
+    "category": "infectious_disease",
+    "source": "Institutional Antimicrobial Stewardship Guideline, CAP chapter",
+    "tags": ["antibiotic", "pneumonia", "cap", "empiric", "stewardship", "first-line", "community-acquired", "protocol"],
+    "content": "For adult inpatients with community-acquired pneumonia (CAP) and no risk factors for resistant organisms, the recommended first-line empiric antibiotic regimen is a beta-lactam plus a macrolide, or respiratory-fluoroquinolone monotherapy when a macrolide is contraindicated. Empiric coverage should be narrowed to a pathogen-directed regimen once culture and susceptibility results return, per the institutional antimicrobial stewardship protocol. Reassess severity at 48-72 hours and de-escalate, or switch to oral therapy, once the patient is clinically stable."
+  },
+  {
+    "id": "kb-002",
+    "title": "Renal dose adjustment for intravenous vancomycin",
+    "category": "renal_dosing",
+    "source": "Pharmacy renal dosing reference, vancomycin monograph",
+    "tags": ["vancomycin", "renal", "dosing", "adjustment", "nephrotoxicity", "trough"],
+    "content": "Vancomycin dosing must be adjusted for renal impairment because the drug is renally cleared and narrow-therapeutic-index. Estimate creatinine clearance before the first dose, extend the dosing interval or reduce the dose for reduced clearance, and obtain a trough level before the fourth dose to guide further adjustment. Concurrent nephrotoxic agents raise the risk of acute kidney injury and warrant closer monitoring."
+  },
+  {
+    "id": "kb-003",
+    "title": "Anticoagulation reversal for warfarin-associated major bleeding",
+    "category": "anticoagulation",
+    "source": "Anticoagulation reversal protocol, warfarin section",
+    "tags": ["warfarin", "reversal", "vitamin-k", "bleeding", "anticoagulation", "inr"],
+    "content": "For major or life-threatening bleeding in a patient on warfarin, hold the warfarin dose, administer intravenous vitamin K, and give four-factor prothrombin complex concentrate for rapid INR correction rather than relying on fresh frozen plasma alone. Recheck the INR after reversal and reassess the ongoing indication for anticoagulation before resuming therapy."
+  },
+  {
+    "id": "kb-004",
+    "title": "Sepsis bundle - first-hour actions for suspected septic shock",
+    "category": "sepsis",
+    "source": "Sepsis quality bundle, first-hour checklist",
+    "tags": ["sepsis", "bundle", "lactate", "fluids", "blood-cultures", "vasopressors"],
+    "content": "Within the first hour of recognizing suspected septic shock, obtain a lactate level, draw blood cultures before antibiotics, administer broad-spectrum antibiotics, begin rapid crystalloid resuscitation for hypotension or elevated lactate, and start vasopressors if the patient remains hypotensive after fluid resuscitation to maintain a mean arterial pressure at or above the target."
+  },
+  {
+    "id": "kb-005",
+    "title": "Venous thromboembolism prophylaxis for medical inpatients",
+    "category": "hematology",
+    "source": "VTE prophylaxis protocol, medical ward policy",
+    "tags": ["vte", "prophylaxis", "heparin", "dvt", "inpatient", "bleeding-risk"],
+    "content": "Medical inpatients should be assessed for VTE risk on admission using a validated risk score; those at elevated risk without a contraindication should receive pharmacologic prophylaxis with low-molecular-weight heparin or unfractionated heparin. Mechanical prophylaxis is used when the bleeding risk precludes pharmacologic therapy. Reassess the risk-benefit balance daily and at discharge."
+  },
+  {
+    "id": "kb-006",
+    "title": "Penicillin allergy history and cephalosporin cross-reactivity",
+    "category": "allergy_immunology",
+    "source": "Allergy stewardship guidance, beta-lactam cross-reactivity",
+    "tags": ["penicillin", "allergy", "cephalosporin", "cross-reactivity", "contraindication", "beta-lactam"],
+    "content": "A reported penicillin allergy does not automatically contraindicate cephalosporins; true cross-reactivity is low and driven mainly by shared side-chain structures rather than the beta-lactam ring itself. Take a detailed allergy history to distinguish a low-risk reaction from a severe reaction such as anaphylaxis or Stevens-Johnson syndrome, which does contraindicate structurally similar agents and warrants an allergy specialist referral before beta-lactam re-exposure."
+  },
+  {
+    "id": "kb-007",
+    "title": "Acute ischemic stroke thrombolysis eligibility window",
+    "category": "neurology",
+    "source": "Stroke thrombolysis protocol, eligibility criteria",
+    "tags": ["stroke", "thrombolysis", "tpa", "window", "contraindication", "time-sensitive"],
+    "content": "Intravenous thrombolysis for acute ischemic stroke is generally indicated within 4.5 hours of clearly established symptom onset, after excluding hemorrhage on non-contrast imaging and screening for contraindications such as recent major surgery, active bleeding, or a very low platelet count. Blood pressure must be controlled below the treatment threshold before administration, and the patient monitored closely for symptomatic hemorrhage afterward."
+  },
+  {
+    "id": "kb-008",
+    "title": "Opioid conversion and equianalgesic dosing principles",
+    "category": "pain_management",
+    "source": "Pain management protocol, opioid rotation section",
+    "tags": ["opioid", "conversion", "equianalgesic", "dosing", "rotation", "safety"],
+    "content": "When rotating between opioids, calculate the equianalgesic dose using a validated conversion table, then reduce the calculated dose by 25 to 50 percent to account for incomplete cross-tolerance, adjusting further for pain severity and renal or hepatic function. Reassess the patient frequently after a rotation and have naloxone available given the risk of relative overdose."
+  },
+  {
+    "id": "kb-009",
+    "title": "Contrast-induced nephropathy prevention in chronic kidney disease",
+    "category": "renal_dosing",
+    "source": "Imaging safety protocol, contrast nephropathy prevention",
+    "tags": ["contrast", "ckd", "nephropathy", "prevention", "imaging", "hydration"],
+    "content": "Patients with chronic kidney disease undergoing contrast-enhanced imaging should receive the lowest diagnostically adequate contrast volume, isotonic intravenous hydration before and after the study when not contraindicated, and a hold on nephrotoxic medications such as NSAIDs around the time of the procedure. Check renal function before and after high-risk studies in patients with significant baseline impairment."
+  },
+  {
+    "id": "kb-010",
+    "title": "Pediatric weight-based dosing for acetaminophen",
+    "category": "pediatrics",
+    "source": "Pediatric dosing reference, antipyretic and analgesic chapter",
+    "tags": ["pediatric", "acetaminophen", "dosing", "weight-based", "antipyretic"],
+    "content": "Pediatric acetaminophen dosing is weight-based, typically administered every four to six hours, with a defined maximum single dose and a defined maximum daily dose that must not be exceeded across all combined acetaminophen-containing products. Confirm the child's current weight before calculating the dose and counsel caregivers to check other medications for hidden acetaminophen content."
+  }
+]

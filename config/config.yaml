@@ -1,0 +1,28 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+
+max_retry: 3
+timeout_s: 30
+
+# Retrieval tuning — forwarded to the inner clinical-guideline workflow by
+# ClinicalGuidelineSearchGraphNode._parent_config() under
+# config["configurable"]["retrieval"]; RetrieveNode / RerankFilterNode read
+# top_k / score_threshold / kb_path from there (fallback: module defaults
+# mirroring these values). The pipeline is deterministic keyword matching —
+# these keys tune it; none are consumed by a live vector-store call.
+#
+# score_threshold is the life-safety relevance floor for this healthcare
+# domain: passages below it are dropped and the agent declines rather than
+# answering from weak evidence. A caller may raise it, never lower it.
+retrieval:
+  top_k: 8
+  score_threshold: 0.75
+  kb_path: "config/kb/hcr_clinical_guideline_kb.json"
+
+# Reserved for the documented LLM-synthesis upgrade (not consumed by any node
+# in the deterministic pipeline). Forwarded verbatim under
+# config["configurable"]["llm"]. Deterministic generation (temperature 0.0)
+# for grounded, non-hallucinated clinical-guideline answers.
+llm:
+  temperature: 0.0
+  max_tokens: 4000
